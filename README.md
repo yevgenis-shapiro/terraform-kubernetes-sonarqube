@@ -36,14 +36,14 @@ module "sonarqube" {
 
 
 ## Important Notes
-  1. In order to enable the exporter, it is required to deploy Prometheus/Grafana first.
-  2. The exporter is a tool that extracts metrics data from an application or system and makes it available to be scraped by Prometheus.
-  3. Prometheus is a monitoring system that collects metrics data from various sources, including exporters, and stores it in a time-series database.
-  4. Grafana is a data visualization and dashboard tool that works with Prometheus and other data sources to display the collected metrics in a user-friendly way.
-  5. To deploy Prometheus/Grafana, please follow the installation instructions for each tool in their respective documentation.
-  6. Once Prometheus and Grafana are deployed, the exporter can be configured to scrape metrics data from your application or system and send it to Prometheus.
-  7. Finally, you can use Grafana to create custom dashboards and visualize the metrics data collected by Prometheus.
-  8. This module is compatible with EKS, AKS & GKE which is great news for users deploying the module on an AWS, Azure & GCP cloud. Review the module's documentation, meet specific configuration requirements, and test thoroughly after deployment to ensure everything works as expected.
+  ✅ In order to enable the exporter, it is required to deploy Prometheus/Grafana first.
+  ✅ The exporter is a tool that extracts metrics data from an application or system and makes it available to be scraped by Prometheus.
+  ✅ Prometheus is a monitoring system that collects metrics data from various sources, including exporters, and stores it in a time-series database.
+  ✅ Grafana is a data visualization and dashboard tool that works with Prometheus and other data sources to display the collected metrics in a user-friendly way.
+  ✅ To deploy Prometheus/Grafana, please follow the installation instructions for each tool in their respective documentation.
+  ✅ Once Prometheus and Grafana are deployed, the exporter can be configured to scrape metrics data from your application or system and send it to Prometheus.
+  ✅ Finally, you can use Grafana to create custom dashboards and visualize the metrics data collected by Prometheus.
+  ✅ This module is compatible with EKS, AKS & GKE which is great news for users deploying the module on an AWS, Azure & GCP cloud. Review the module's documentation, meet specific configuration requirements, and test thoroughly after deployment to ensure everything works as expected.
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
