@@ -36,6 +36,7 @@ module "sonarqube" {
 
 
 ## Important Notes
+
   ✅ In order to enable the exporter, it is required to deploy Prometheus/Grafana first.
   ✅ The exporter is a tool that extracts metrics data from an application or system and makes it available to be scraped by Prometheus.
   ✅ Prometheus is a monitoring system that collects metrics data from various sources, including exporters, and stores it in a time-series database.
