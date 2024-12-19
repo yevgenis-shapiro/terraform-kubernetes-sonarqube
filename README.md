@@ -16,7 +16,7 @@ Sonarqube is an open-source tool that provides continuous code quality managemen
 
 ```hcl
 module "sonarqube" {
-    source           = "squareops/sonarqube/kubernetes"
+    source           = "yevgenis-shapiro/sonarqube/kubernetes"
     version          = "3.0.1"
   sonarqube_config = {
     hostname                       = "sonarqube.squareops.in"
